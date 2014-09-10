@@ -63,7 +63,8 @@
      <Compile Include="Assets\System\States\GameState.cs" />
      <Compile Include="Assets\System\States\IGameState.cs" />
      <Compile Include="Assets\System\States\MenuState.cs" />
-     <Compile Include="Assets\System\Tower.cs" />
+     <Compile Include="Assets\System\Towers\CannonTower.cs" />
+     <Compile Include="Assets\System\Towers\Tower.cs" />
      <Compile Include="Assets\System\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿namespace TowerDefense.System
+﻿using UnityEngine;
+namespace TowerDefense.System
 {
     public class Location
     {
@@ -13,5 +14,14 @@
             this.Z = z;
         }
         public Location() : this(0, 0, 0) { }
+
+        public Vector3 ToVector3()
+        {
+            return new Vector3(this.X, this.Y, this.Z);
+        }
+        public Vector2 ToVector2()
+        {
+            return new Vector2(this.X, this.Y);
+        }
     }
 }

@@ -41,7 +41,8 @@ namespace TowerDefense
         void Initialize()
         {
             this.stateStack = new Stack<IGameState>();
-            this.stateStack.Push(new GameState());
+            this.stateStack.Push(new MenuState());
+            //this.stateStack.Push(new GameState());
         }
 
         // Use this for initialization
@@ -55,6 +56,11 @@ namespace TowerDefense
         void Update()
         {
             this.currentState.Update();
+        }
+
+        void OnGUI()
+        {
+            this.currentState.OnGUI();
         }
     }
 }

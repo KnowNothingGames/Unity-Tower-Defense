@@ -22,6 +22,10 @@ namespace TowerDefense.System.States
 
         }
 
+        public void OnGUI()
+        {
+        }
+
         public void Stop()
         {
             // Remove Events.

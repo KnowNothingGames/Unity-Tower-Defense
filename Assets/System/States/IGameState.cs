@@ -11,6 +11,7 @@
 
         void Start();
         void Update();
+        void OnGUI();
         void Stop();
     }
 }

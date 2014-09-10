@@ -1,4 +1,4 @@
-﻿namespace TowerDefense.System
+﻿namespace TowerDefense.System.Towers
 {
     public class Tower
     {
